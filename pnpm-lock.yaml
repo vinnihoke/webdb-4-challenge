@@ -1277,7 +1277,7 @@ packages:
       is-plain-object: 2.0.4
       object.map: 1.0.1
       rechoir: 0.6.2
-      resolve: 1.12.0
+      resolve: 1.12.1
     dev: false
     engines:
       node: '>= 0.8'
@@ -1773,7 +1773,7 @@ packages:
       integrity: sha512-tQtKA9WIAhBF3+VLAseyMqZeBjW0AHJoxOtYqSUZNJxauErmLbVm2FW1y+J/YA9dUrAC39ITejlZWhVIwawkKw==
   /rechoir/0.6.2:
     dependencies:
-      resolve: 1.12.0
+      resolve: 1.12.1
     dev: false
     engines:
       node: '>= 0.10'
@@ -1846,12 +1846,12 @@ packages:
     dev: false
     resolution:
       integrity: sha1-LGN/53yJOv0qZj/iGqkIAGjiBSo=
-  /resolve/1.12.0:
+  /resolve/1.12.1:
     dependencies:
       path-parse: 1.0.6
     dev: false
     resolution:
-      integrity: sha512-B/dOmuoAik5bKcD6s6nXDCjzUKnaDvdkRyAk6rsmsKLipWj4797iothd7jmmUhWTfinVMU+wc56rYKsit2Qy4w==
+      integrity: sha512-+j3UVImywlkdEOzjNCk379mEqqUEmHgCmUDQkmVVwDkBVopfk/TqrBrr8ZfKZSnCqW/sgyuACFVjBwoB5Mw56A==
   /ret/0.1.15:
     dev: false
     engines:
