@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/vinnihoke/webdb-4-challenge#readme",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "helmet": "^3.21.2",
     "knex": "^0.20.2",
