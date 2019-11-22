@@ -5,5 +5,8 @@
       "sideBar.background": "#101010",
       "sideBarSectionHeader.background": "#202020",
       "editor.lineHighlightBackground": "#101010"
-    }
+    },
+    "editor.insertSpaces": false,
+    "editor.wordWrap": "bounded",
+    "editor.minimap.enabled": false
   }

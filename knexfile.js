@@ -1,15 +1,15 @@
 module.exports = {
     development: {
-        client: 'sqlite3',
+        client: "sqlite3",
         useNullAsDefault: true,
         connection: {
-            filename: './data/recipe-book.db3'
+            filename: "./data/recipe-book.db3"
         },
         migrations: {
-            directory: './data/migrations'
+            directory: "./data/migrations"
         },
         seeds: {
-            directory: './data/seeds'
+            directory: "./data/seeds"
         },
         pool: {
             afterCreate: (connection, done) => {
@@ -18,3 +18,5 @@ module.exports = {
         }
     }
 }
+
+// This file must be called knexfile.js or nothing will work.
