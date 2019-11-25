@@ -12,3 +12,5 @@ router.get('/', async (req, res) => {
         res.status(500).json({ message: "This is awkward...", error: e.message });
     }
 })
+
+module.exports = router

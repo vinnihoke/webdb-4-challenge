@@ -1,6 +1,9 @@
 const express = require('express');
 const helmet = require('helmet');
-const morgan = require('morgan')
+const morgan = require('morgan');
+
+const RecipeRouter = require('./routers/recipes/recipe-router.js');
+const IngredientsRouter = require('./routers/ingredients/ingredient-router.js');
 
 const server = express();
 
